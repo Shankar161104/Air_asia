@@ -1,0 +1,505 @@
+*{
+    border: 0%;
+    
+    margin: 0%;
+    font-family: "DM Sans", Roboto;
+    color: #000;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 180px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+
+}
+
+#nav img{
+    height: 32px;
+    position: absolute;
+    left: 80px;
+    top: 18px;
+}
+
+#nav img+ul{
+    list-style: none;
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    width: 580px;
+    position: absolute;
+    left: 835px;
+    top: 20px;
+    color: rgb(76, 76, 80);
+}
+#nav img+ul>li:hover{
+    color: green;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#nav img+ul+svg{
+    height: 20px;
+    position: absolute;
+    left: 1505px;
+    top: 20px;
+
+}
+#nav img+ul+svg+p{
+    position: absolute;
+    left: 1535px;
+    top: 20px;
+
+}
+#nav img+ul+svg+p+svg{
+    height: 27px;
+    position: absolute;
+    left: 1655px;
+    top: 18px;
+}
+#nav img+ul+svg+p+svg+p{
+    position: absolute;
+    left: 1695px;
+    top: 20px;
+}
+#subnav{
+    /* border: 2px solid; */
+    height: 20px;
+
+    
+}
+#subnav:hover{
+   cursor: pointer;
+}
+
+
+#subnav div>img{
+    height: 40px;
+    position: absolute;
+    left: 280px;
+    top: 140px;
+}
+#subnav div>img+p{
+    position: absolute;
+    left: 340px;
+    top: 150px;
+}
+#subnav div+div>img{
+    position: absolute;
+    left: 430px;
+}
+#subnav div+div>img+p{
+    position: absolute;
+    left: 490px;
+}
+
+#eg{
+    color: green;
+    /* border: 2px solid; */
+    width: 80px;
+    border-radius: 13px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 300px;
+    top: 119px;
+    font-size: small;
+}
+#subnav div+div+div+div>img{
+    position: absolute;
+    left: 600px;
+}
+#subnav div+div+div+div>img+p{
+    position: absolute;
+    left: 660px;
+}
+#subnav div+div+div+div+div>img{
+    position: absolute;
+    left: 780px;
+    
+}
+#subnav div+div+div+div+div>img+p{
+    position: absolute;
+    left: 840px;
+}
+#eg1{
+    color: green;
+    /* border: 2px solid; */
+    width: 80px;
+    border-radius: 13px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 790px;
+    top: 119px;
+    font-size: small;
+}
+
+#subnav div+div+div+div+div+div+div>img{
+    position: absolute;
+    left: 950px;
+
+}
+#subnav div+div+div+div+div+div+div>img+p{
+    position: absolute;
+    left: 1000px;
+}
+#subnav div+div+div+div+div+div+div+div>img{
+    position: absolute;
+    left: 1100px;
+}
+#subnav div+div+div+div+div+div+div+div>img+p{
+    position: absolute;
+    left: 1160px;
+}
+#eg2{
+    color: green;
+    /* border: 2px solid; */
+    width: 40px;
+    border-radius: 13px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 1090px;
+    top: 119px;
+    font-size: small;
+}
+#subnav div+div+div+div+div+div+div+div+div+div>img{
+    position: absolute;
+    left: 1270px;
+}
+#subnav div+div+div+div+div+div+div+div+div+div>img+p{
+    position: absolute;
+    left: 1330px;
+}
+#subnav div+div+div+div+div+div+div+div+div+div+div>img{
+    position: absolute;
+    left: 1430px;
+
+}
+#subnav div+div+div+div+div+div+div+div+div+div+div>img+p{
+    position: absolute;
+    left: 1490px;
+}
+
+#section{
+    /* border: 2px solid; */
+    height: 190px;
+    margin: auto;
+    width: 1380px;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+#section div>p{
+    position: absolute;
+    left: 390px;
+    top: 230px;
+}
+#section div>p+svg{
+    height: 23px;
+    position: absolute;
+    left: 464px;
+    top: 227px;
+    
+}
+#section div>p+svg+p{
+    font-size: 33px;
+    position: absolute;
+    
+    left: 514px;
+    top: 220px;
+    /* opacity: 0.4; */
+}
+#section div>p+svg+p+svg{
+    height: 17px;
+    position: absolute;
+    left: 554px;
+    top: 230px;
+}
+#section div>p+svg+p+svg+h3{
+     font-size: 14.5px;
+     font-weight: 100;
+     position: absolute;
+    left: 577px;
+    top: 230px;
+
+}
+
+#svg2{
+    height: 23px;
+    position: absolute;
+    left: 697px;
+    top: 228px;
+}
+#section div>p+svg+p+svg+h3+svg+p{
+    font-size: 33px;
+    position: absolute;
+    
+    left: 727px;
+    top: 220px;
+    /* opacity: 0.4; */
+}
+.p:hover{
+    cursor: pointer;
+
+}
+#section div>p+svg+p+svg+h3+svg+p+input{
+    position: absolute;
+    left: 757px;
+    top: 220px;
+    height: 31px;
+    /* opacity: 0.4; */
+
+}
+#section div>p+svg+p+svg+h3+svg+p+input+p{
+    font-size: 33px;
+    position: absolute;
+    
+    left: 957px;
+    top: 220px;
+    /* opacity: 0.4; */
+
+}
+
+#section div+div{
+    position: absolute;
+    top: 280px;
+    left:390px;
+   
+}
+#section div+div>input{
+    height:60px;
+    width: 300px;
+    /* opacity: 0.4; */
+    
+}
+#section div+div>input::placeholder{
+    position: absolute;
+    left: 44px;
+    font-size: 16px;
+}
+#section div+div>input+svg{
+    height: 23px;
+    position: absolute;
+    left: 22px;
+    top: 23px;
+    
+}
+
+
+#section div+div>input+svg+div>svg{
+    height: 23px;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    color: #000;
+    fill: #000;
+
+}
+#section div+div>input+svg+div+input{
+    position: absolute;
+    top: 0px;
+    left:320px;
+
+}
+#section div+div>input+svg+div{
+    /* border: 2px solid;   */
+    height: 33px;
+    border-radius: 50%;
+    width: 30px;
+    background-color: rgba(227, 224, 224, 0.996);
+    position: absolute;
+    top: 17px;
+    left: 296px;
+    /* opacity: 0.4; */
+}
+#section div+div>input+svg+div+input+svg{
+        position: absolute;
+        left: 680px;
+        color: #000;
+}
+
+#section div+div>input+svg+div+input+svg+section{
+    border: 2px solid;
+    height: 60px;
+    position: absolute;
+    width: 190px;    
+    left: 670px;
+    top: 1px;
+    opacity: 0.2;
+
+
+}
+#section div+div>input+svg+div+input+svg+section>p{
+    position: absolute;
+    left: 35px;
+}
+#section div+div>input+svg+div+input+svg+section>p+h2{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    color: #000;
+    font-size: 17px;
+    
+}
+#section div+div>input+svg+div+input+svg+section+section{
+    border: 2px solid;
+    height: 60px;
+    position: absolute;
+    width: 190px;    
+    left: 862px;
+    top: 1px;
+    opacity: 0.2;
+
+}
+#section div+div>input+svg+div+input+svg+section+section>h2{
+    color: #000;
+    font-size: 17px;
+    top: 20px;
+       
+
+}
+button{
+    position: absolute;
+    left: 1467px;
+    top: 280px;
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: green;
+    
+}
+
+#carouselExampleSlidesOnly{
+    margin: auto;
+    width: 1300px;
+    position: absolute;
+    top: 510px;
+    left: 320px;
+    height: 200px;
+}
+
+#heading{
+    position: absolute;
+    top: 840px;
+    left: 340px;
+    font-size: 25px;
+}
+
+
+.cardd{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 300px;
+    background-color: rgb(248, 247, 246);
+    box-shadow: 20px 10px 18px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .cardd:hover{
+    cursor: pointer;
+    
+  }
+
+  .cardd img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 85px;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+  }
+  .cardd img+p{
+    position: absolute;
+    top: 226px;
+  }
+
+  .cardd img+p+p{
+    font-size: small;
+    position: absolute;
+    top: 265px;
+
+  }
+  #card1{
+    position: absolute;
+    top: 870px;
+    left: 300px;
+  }
+
+  #card1 img{
+    position: absolute;
+    top: 5px;
+  }
+
+
+  #card2{
+    position: absolute;
+    left: 630px;
+    top: 870px;
+  }
+  #card2 img{
+    position: absolute;
+    top: 5px;
+
+  }
+  #card2 img+p{
+    position: absolute;
+    top: 225px;
+
+
+  }
+  #card2 img+p+p{
+    position: absolute;
+    top: 265px;
+
+  }
+  #card3{
+    position: absolute;
+    left: 960px;
+    top: 870px;
+  }
+  #card3 img{
+    position: absolute;
+    top: 5px;
+
+  }
+  #card3 img+p{
+    position: absolute;
+    top: 225px;
+
+
+  }
+  #card3 img+p+p{
+    position: absolute;
+    top: 265px;
+
+  }
+
+  #card4{
+    position: absolute;
+    left: 1290px;
+    top: 870px;
+  }
+  #card4 img{
+    position: absolute;
+    top: 5px;
+
+  }
+  #card4 img+p{
+    position: absolute;
+    top: 225px;
+
+
+  }
+  #card4 img+p+p{
+    position: absolute;
+    top: 265px;
+
+  }
+
+
+
+
+
+
+
